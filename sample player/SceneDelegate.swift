@@ -1,9 +1,3 @@
-//
-//  SceneDelegate.swift
-//  sample player
-//
-//  Created by walf wuffler on 6/5/22.
-//
 
 import UIKit
 

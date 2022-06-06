@@ -1,11 +1,7 @@
-//
-//  AppDelegate.swift
-//  sample player
-//
-//  Created by walf wuffler on 6/5/22.
-//
+
 
 import UIKit
+import AVKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +10,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        /*
+        // setup AVAudioSession
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            // Set the audio session category, mode, and options.
+            try audioSession.setCategory(.playback, mode: .default, options: [])
+        } catch {
+            print("Failed to set audio session category.")
+        }
+        */
+        
         return true
     }
 

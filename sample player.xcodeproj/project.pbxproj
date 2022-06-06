@@ -13,6 +13,7 @@
 		58009C08284D71CF00810B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58009C06284D71CF00810B50 /* Main.storyboard */; };
 		58009C0A284D71D100810B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58009C09284D71D100810B50 /* Assets.xcassets */; };
 		58009C0D284D71D100810B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58009C0B284D71D100810B50 /* LaunchScreen.storyboard */; };
+		58009C1C284D91DF00810B50 /* KickDrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58009C1B284D91DF00810B50 /* KickDrum.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		58009C09284D71D100810B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58009C0C284D71D100810B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58009C0E284D71D100810B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58009C1B284D91DF00810B50 /* KickDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = KickDrum.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		58009BFF284D71CF00810B50 /* sample player */ = {
 			isa = PBXGroup;
 			children = (
+				58009C1D284D923900810B50 /* samples */,
 				58009C00284D71CF00810B50 /* AppDelegate.swift */,
 				58009C02284D71CF00810B50 /* SceneDelegate.swift */,
 				58009C04284D71CF00810B50 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				58009C0E284D71D100810B50 /* Info.plist */,
 			);
 			path = "sample player";
+			sourceTree = "<group>";
+		};
+		58009C1D284D923900810B50 /* samples */ = {
+			isa = PBXGroup;
+			children = (
+				58009C1B284D91DF00810B50 /* KickDrum.wav */,
+			);
+			path = samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58009C1C284D91DF00810B50 /* KickDrum.wav in Resources */,
 				58009C0D284D71D100810B50 /* LaunchScreen.storyboard in Resources */,
 				58009C0A284D71D100810B50 /* Assets.xcassets in Resources */,
 				58009C08284D71CF00810B50 /* Main.storyboard in Resources */,
@@ -293,8 +305,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +335,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
