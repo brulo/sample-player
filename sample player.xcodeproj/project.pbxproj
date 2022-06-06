@@ -14,6 +14,7 @@
 		58009C0A284D71D100810B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58009C09284D71D100810B50 /* Assets.xcassets */; };
 		58009C0D284D71D100810B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58009C0B284D71D100810B50 /* LaunchScreen.storyboard */; };
 		58009C1C284D91DF00810B50 /* KickDrum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58009C1B284D91DF00810B50 /* KickDrum.wav */; };
+		58009C1F284DA55400810B50 /* PolyphonicAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58009C1E284DA55400810B50 /* PolyphonicAudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		58009C0C284D71D100810B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58009C0E284D71D100810B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58009C1B284D91DF00810B50 /* KickDrum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = KickDrum.wav; sourceTree = "<group>"; };
+		58009C1E284DA55400810B50 /* PolyphonicAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyphonicAudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				58009C09284D71D100810B50 /* Assets.xcassets */,
 				58009C0B284D71D100810B50 /* LaunchScreen.storyboard */,
 				58009C0E284D71D100810B50 /* Info.plist */,
+				58009C1E284DA55400810B50 /* PolyphonicAudioPlayer.swift */,
 			);
 			path = "sample player";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			files = (
 				58009C05284D71CF00810B50 /* ViewController.swift in Sources */,
 				58009C01284D71CF00810B50 /* AppDelegate.swift in Sources */,
+				58009C1F284DA55400810B50 /* PolyphonicAudioPlayer.swift in Sources */,
 				58009C03284D71CF00810B50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
